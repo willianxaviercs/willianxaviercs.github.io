@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Willian Xavier">
+    <meta name="keywords" content="C, C++, HTML, CSS, Development">
+    <title>Willian Xavier's Website</title>
+    <style>
+        html {
+            font-family: Consolas, Monospace, Courier;
+            padding: 2px;
+        }
+        body {
+            background-color: #fafafa;
+            max-width: 900px;
+            margin: 0 auto;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+        h1 {
+            font-size: 1.3em;
+            text-transform: uppercase;
+            padding: 0;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 span {
+            font-family: Geneva, Verdana, sans-serif ;
+            font-size: 140%;
+            vertical-align: sub;
+        }
+        nav a {
+            font-size: 1em;
+            text-decoration: none;
+            color: black;
+        }
+        nav {
+            margin-top: 1px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+        }
+        header {
+            padding: 4px;
+            margin-bottom: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: max-content;
+        }
+        main {
+            margin-top: 10px;
+            padding: 4px;
+        }
+        hr {
+            color: rgba(180, 180, 180, 1);
+        }
+        h2 {
+            text-transform: uppercase;
+            font-size: 1em;
+            margin: 2px;
+        }
+        section {
+            margin-top: 4px;
+            padding: 2px;
+        }
+        .article-p {
+            margin-top: 0 auto;
+            padding: 4px;
+        }
+        p {
+            padding: 4px;
+            margin: 2px;
+        }
+        .article-link {
+            font-weight: bold;
+            text-align: left;
+            color: black;
+        }
+        footer {
+            margin: 10px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+            align-content: center;
+            margin: 4px;
+            padding: 4px;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+</head>
+<body>
+        <!-- header -->
+        <header title="Willian Xavier">
+                <a style="text-decoration: none;color: black;" href="./index.html">
+                    <h1><span>W</span>ILLIAN XAVIER</h1>
+                </a>
+                <hr style="margin: 0 auto;">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./about.html"><strong>ABOUT</strong></a></li>
+                <li><a href="./contact.html"><strong>CONTACT</strong></a> </li>
+            </ul>
+        </nav>
+<main>
+    <br>
+    <br>
+</section>
+<p class="article-p">
+    <a  href="./zen_editor.png" target="_blank">
+        <img src="zen_editor.png" width="50%" height="50%"  class="center">
+    </a>
+</p>
+<section>
+
+</section>
+<p class="article-p">
+    <a class="article-link" href="https://github.com/willianxaviercs/project_text_editor" target="_blank">Código Fonte</a>
+    
+</p>
+<section>
+
+    <h2>SOBRE O PROJETO</h2>
+    <hr>
+    <!-- Email -->
+    <section>
+        <p class="article-p">
+            Um editor de texto escrito em C/C++. <br>
+            <p>
+            Escolhi a escrita de um editor de texto para ser meu primeiro "grande" projeto pois é desafiador o bastante
+            para meu nível de conhecimento e me mantém motivado, pois nele encontro diversos assuntos pelo que tenho interesse. <br>
+            </p>
+            <P>
+                O primeiro renderizador foi escrito em software por motivos de aprendizado, mas no futuro vou portá-lo para um renderizador
+                comum acelerado em hardware. <br>
+            
+            </P>
+            <P>
+                Para o carregamento das bitmaps das fontes, foi usada a biblioteca "stb_truetype". Todo o resto do editor foi escrito por mim 
+                apenas utilizando as apis WIN32 do Windows e a bibliotecas padrão da linguagem C/C++. <br> 
+            </P>
+            <p>
+                A linguagem escolhida é um dialeto de C++ que é basicamente C com algumas adições de C++ como default parameters, declare anywhere,
+                algo que se assemelha bastante ao C++ que é usado na documentação da api Win32. <br>
+            </p>
+            <p>
+                Como inspiração gráfica para o design do editor nesta primeira iteração, usei como bases editores como EMACS, 4Coder, Vim, que simplificam o 
+                design UI e usam mais o teclado para manipular o editor ao invés do mouse, porém planejo adicionar suporte ao mouse e oferecer uma UI "clicável"
+                como outros editores. 
+            </p>
+            
+        </p>
+    </section>
+
+    <br>
+    <br>
+
+    <hr>
+
+    <!-- footer -->
+    <footer>
+        <p>Willian Xavier 2021.</p>
+    </footer>
+
+</body>
+</html>
