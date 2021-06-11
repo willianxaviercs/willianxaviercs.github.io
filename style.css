@@ -1,0 +1,91 @@
+html {
+    font-family: Consolas, Monospace, Courier;
+    padding: 2px;
+    color: rgb(32, 32, 32);
+
+}
+body {
+    background-color: rgb (242, 244, 248);
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+h1 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 span {
+    font-family: Geneva, Verdana, sans-serif ;
+    font-size: 140%;
+    vertical-align: sub;
+}
+nav a {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+nav {
+    margin-top: 1px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+header {
+    padding: 4px;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+main {
+    margin-top: 10px;
+    padding: 4px;
+}
+hr {
+    color: rgba(180, 180, 180, 1);
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 2px;
+}
+section {
+    margin-top: 4px;
+    padding: 2px;
+}
+.article-p {
+    margin-top: 0 auto;
+    padding: 4px;
+}
+p {
+    padding: 4px;
+    margin: 2px;
+}
+.article-link {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+footer {
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+}
+img {
+    align-content: center;
+    margin: 4px;
+    padding: 4px;
+}      
